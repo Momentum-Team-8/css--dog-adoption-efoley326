@@ -3,6 +3,7 @@
   rel="stylesheet">
 * {background-color:beige;}
 h1 {background-color: blue;
-padding: 100;
-border-bottom:cornflowerblue;
-border-bottom: 2pix;}
+padding: 100px;
+border-bottom:rgb(136, 172, 240); 
+border-bottom-width: 6mm;
+}
