@@ -2,8 +2,10 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700"
   rel="stylesheet">
 * {background-color:beige;}
-h1 {background-color: blue;
+h1 {background-color: navy;
+    color: white;
+    font-family: open sans;
+    text-align: left;
 padding: 100px;
-border-bottom:rgb(136, 172, 240); 
-border-bottom-width: 6mm;
+border-bottom: skyblue solid 5px;
 }
