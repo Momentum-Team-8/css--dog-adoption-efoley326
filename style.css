@@ -1,13 +1,15 @@
 
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700"
   rel="stylesheet">
-body {background-color:beige;
-margin: 40px;
+body {background-color: beige;
+margin: 0 auto;
 padding: 40px;
+display: flex;
 }
-h1 {background-color: rgb(0, 45, 143);
-    color: white;
+h1 {background-color: rgb(18, 48, 114);
+    color: beige;
     font-family: open sans;
+    font-size: 40px;
     text-align: left;
     font-weight: bold;
     padding: 40px;
@@ -24,3 +26,6 @@ p {font-family: open sans;
 }
 div {padding:5px;
 }
+.footerimg {
+    opacity: 0.5;
+      }
