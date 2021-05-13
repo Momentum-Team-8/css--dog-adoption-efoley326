@@ -2,10 +2,16 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700"
   rel="stylesheet">
 * {background-color:beige;}
-h1 {background-color: navy;
+h1 {background-color: rgb(25, 71, 170);
     color: white;
     font-family: open sans;
     text-align: left;
-padding: 100px;
+padding: 40px;
 border-bottom: skyblue solid 5px;
+}
+h2 {font-family: open sans;
+color: black;
+font-size 10em;
+font-weight: bold;
+padding: 20px;
 }
