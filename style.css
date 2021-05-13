@@ -28,11 +28,29 @@ p {
 }
 
 div {
-    padding: 2px 16px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    display: inline-block;
 }
 
 h4 {
     font-family: oswald;
+    font-size: larger;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    width: fit-content;
+    height: auto;
+    background-color: skyblue;
+    color: black;
+    border-radius: 80px;
 }
 
 .footerimg {
