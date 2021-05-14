@@ -4,28 +4,29 @@ padding: 0;
 }
 
 body {
-    background-color: ivory;
+    background-color: white;
     border-left: 150px solid #f2f2f2;
     border-right: 150px solid #f2f2f2;
    }
 
 h1 {background-color: rgb(18, 48, 114);
-    color:ivory;
+    color: white;
     font-family: open sans;
     font-size: 40px;
     text-align: left;
     font-weight: bold;
     border-bottom: skyblue solid 3px;
-    width: 100%;
-    padding: 50px;
+    padding: 50px 0px 50px 50px;
     align-items: left;
 }
 
-header {width: 100;
+header {width: 100%;
 }
 
 .head-text {
-    padding: 40px;
+    padding: 40px 40px 0px 40px;
+    display: flex;
+    align-items: left;
     justify-content: left;
 }
 
@@ -33,6 +34,7 @@ h2 {font-family: open sans;
 color: black;
 font-size: 30px;
 font-weight: bold;
+padding-bottom: 20px;
 }
 
 p {
@@ -41,17 +43,19 @@ p {
 }
 
 div {
-    width: fit-content;
+    width: 350px;
     height: fit-content;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     flex-wrap: wrap;
+    padding: 10px 40px 40px 40px;
 }
 
 h4 {
     font-family: oswald;
     font-size: larger;
+    padding-top: 10px 0px 10px 0px;
 }
 
 ul {
@@ -62,6 +66,8 @@ ul {
   }
 
 li {
+    margin: 4px 4px 0px 0px;
+    font-family: open sans;
     width: fit-content;
     height: auto;
     background-color: skyblue;
