@@ -1,9 +1,13 @@
-
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700"
-  rel="stylesheet">
-
-body{color: ivory
+* { box-sizing: border box;
+margin: 0;
+padding: 0;
 }
+
+body {
+    background-color: ivory;
+    border-left: 150px solid #f2f2f2;
+    border-right: 150px solid #f2f2f2;
+   }
 
 h1 {background-color: rgb(18, 48, 114);
     color:ivory;
@@ -11,15 +15,24 @@ h1 {background-color: rgb(18, 48, 114);
     font-size: 40px;
     text-align: left;
     font-weight: bold;
-    padding: 40px;
     border-bottom: skyblue solid 3px;
+    width: 100%;
+    padding: 50px;
+    align-items: left;
+}
+
+header {width: 100;
+}
+
+.head-text {
+    padding: 40px;
+    justify-content: left;
 }
 
 h2 {font-family: open sans;
 color: black;
 font-size: 30px;
 font-weight: bold;
-padding: 5px;
 }
 
 p {
@@ -30,8 +43,10 @@ p {
 div {
     width: fit-content;
     height: fit-content;
-    padding: 5px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 h4 {
@@ -43,6 +58,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: inline-block;
   }
 
 li {
@@ -51,6 +67,8 @@ li {
     background-color: skyblue;
     color: black;
     border-radius: 80px;
+    display: inline-block;
+    padding: 5px;
 }
 
 .footerimg {
