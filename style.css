@@ -139,6 +139,10 @@ linear-gradient(
 url("starter_files/images/volunteer.jpg");
 display: flex;
 flex: 1 1 auto;
+text-align: center;
+text-justify: center;
+justify-content: center;
+align-items: center;
 }
 
 .location {
@@ -153,4 +157,8 @@ linear-gradient(
 url("starter_files/images/location.png");
 display: flex;
 flex: 1 1 auto;
+text-align: center;
+text-justify: center;
+justify-content: center;
+align-items: center;
 }
